@@ -18,14 +18,17 @@ Fast Share 是一个轻量级的命令行文件分享工具，可以快速创建
 
 3. 使其在系统层面可用：
 
-   **Linux/macOS:**   ```bash
+   **Linux/macOS:**
+   ```bash
    # 1. 移动脚本到 bin 目录
    sudo cp fast-share.py /usr/local/bin/fast-share
 
    # 2. 添加执行权限
-   sudo chmod +x /usr/local/bin/fast-share   ```
+   sudo chmod +x /usr/local/bin/fast-share
+   ```
 
-   **Windows:**   ```powershell
+   **Windows:**   
+   ```powershell
    # 1. 创建一个适当的目录（如果还没有的话）
    mkdir C:\Users\<用户名>\AppData\Local\Programs\Scripts
 
@@ -33,7 +36,8 @@ Fast Share 是一个轻量级的命令行文件分享工具，可以快速创建
    copy fast-share.py C:\Users\<用户名>\AppData\Local\Programs\Scripts\fast-share.py
 
    # 3. 将该目录添加到系统环境变量 PATH 中
-   # 可以通过系统设置 > 系统 > 关于 > 高级系统设置 > 环境变量 来添加   ```
+   # 可以通过系统设置 > 系统 > 关于 > 高级系统设置 > 环境变量 来添加
+   ```
 
 ## 使用方法
 
